@@ -48,7 +48,7 @@ Em minha transição de carreira para a área de Dados e Inteligência Artificia
 
 <div align="center">
   <!-- Dica: Crie um banner retangular o Canva (ex: 1200x400n) com o título do projeto, suba nas Issues e cole o link aqui -->
-  <img src="COLE_LINK_DO_SEU_BANNER_AQUI" alt="Banner do Projeto ETA" width="100%">
+  <img src="https://github.com/user-attachments/assets/b61384b0-12f4-439a-94b6-ef7af4816670" alt="Banner do Projeto ETA" width="100%">
 </div>
 
 <br>
@@ -101,7 +101,7 @@ Todo o projeto foi desenvolvido em nuvem utilizando o Google Colab. Para reprodu
 
 1. Acesse o notebook completo clicando no botão abaixo:
    
-<a href="SEU_LINK_DO_GOOGLE_COLAB_AQUI"><img src="https://img.shields.io/badge/Abrir_Notebook_no-Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white" alt="Abrir no Colab"></a>
+<a href="https://colab.research.google.com/drive/1lPVmGOZexU-V3EFAOIVfXtpj-aAE79MI"><img src="https://img.shields.io/badge/Abrir_Notebook_no-Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white" alt="Abrir no Colab"></a>
 
 2. Faça o upload do arquivo `.csv` do dataset.
 3. Execute as células sequencialmente para replicar a limpeza e o treinamento do modelo.
