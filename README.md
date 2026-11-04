@@ -88,15 +88,14 @@ O projeto utiliza dados operacionais baseados no histórico de entregas (dataset
 4. **Avaliação:** O modelo foi avaliado com base no **MAE (Erro Médio Absoluto)**.
 
 ## 📊 Resultados e Impacto Operacional
-O modelo atingiu um Erro Médio Absoluto (MAE) de **[INSERIR SEU RESULTADO AQUI] minutos**. 
+O modelo atingiu um Erro Médio Absoluto (MAE) de **15,8 minutos**. 
 
 Na prática, isso significa que a estimativa do algoritmo erra, para mais ou para menos, por essa margem de tempo. Com essa previsão em mãos, a operação ganha previsibilidade para:
 * Reduzir o tempo de ociosidade do entregador no restaurante.
 * Ajustar dinamicamente a promessa de entrega no aplicativo do cliente.
 
-*(Adicione abaixo uma captura de tela do seu dashboard construído no Power BI mostrando a comparação entre o tempo real vs. previsto e indicadores logísticos)*
 
-![Dashboard de Previsão de Entregas](link_da_imagem_do_seu_dashboard_aqui)
+![Dashboard de Previsão de Entregas](https://github.com/user-attachments/assets/3883451b-7002-4f28-a19a-de3688a46262)
 ## 💻 Como Executar
 Todo o projeto foi desenvolvido em nuvem utilizando o Google Colab. Para reproduzir o pipeline de dados:
 
