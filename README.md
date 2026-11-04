@@ -47,7 +47,7 @@ Em minha transição de carreira para a área de Dados e Inteligência Artificia
 ## 📂 Meus Projetos
 
 <div align="center">
-  <!-- Dica: Crie um banner retangular no Canva (ex: 1200x400) com o título do projeto, suba nas Issues e cole o link aqui -->
+  <!-- Dica: Crie um banner retangular o Canva (ex: 1200x400n) com o título do projeto, suba nas Issues e cole o link aqui -->
   <img src="COLE_LINK_DO_SEU_BANNER_AQUI" alt="Banner do Projeto ETA" width="100%">
 </div>
 
