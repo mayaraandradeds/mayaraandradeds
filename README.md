@@ -67,25 +67,36 @@ No setor de *food delivery* (last-mile), a precisão no tempo estimado de entreg
 
 O objetivo deste projeto é construir um modelo preditivo capaz de estimar o tempo exato de entrega com base em variáveis como distância, condições climáticas, densidade de trânsito e volume de pedidos, transformando dados brutos em inteligência logística.
 
-## 🏗️ Metodologia e Pipeline de Dados
-O desenvolvimento do modelo seguiu as seguintes etapas:
-1. **Coleta e Compreensão:** Importação da base de dados histórica de entregas.
-2. **Data Wrangling (Limpeza):** Tratamento de valores nulos (NaN), formatação de variáveis de data/hora e conversão de strings para tipos numéricos.
-3. **Feature Engineering:** Criação de variáveis estratégicas, como o cálculo da distância real entre o restaurante e o cliente com base em latitude e longitude (fórmula de Haversine).
-4. **Modelagem Preditiva:** Treinamento do algoritmo **Random Forest Regressor** para capturar relações não-lineares, como o impacto cruzado entre clima chuvoso e trânsito intenso.
+## 🛠️ Tecnologias e Ferramentas Utilizadas
+* **Linguagem:** Python
+* **Manipulação de Dados:** Pandas, NumPy
+* **Machine Learning:** Scikit-learn (Random Forest Regressor)
+* **Visualização e KPIs Logísticos:** Microsoft Power BI
+* **Ambiente de Desenvolvimento:** Google Colab
 
-## 📊 Resultados e Insights
-> Abaixo está a análise de importância das variáveis (*Feature Importance*), que mostra quais fatores o modelo considerou mais críticos para o tempo logístico.
+## 🗂️ Sobre os Dados
+O projeto utiliza dados operacionais baseados no histórico de entregas (dataset público da DoorDash). As principais variáveis operacionais incluem:
+* Horários de criação do pedido e entrega real.
+* Quantidade de entregadores no turno (`total_onshift_dashers`) e ocupados (`total_busy_dashers`).
+* Estimativas de tempo de preparo e de roteamento (distância loja-cliente).
+* Volume e valor do pedido.
 
-<div align="center">
-  <!-- Gere um gráfico no seu notebook, salve como PNG, suba nas Issues e cole o link abaixo -->
-  <img src="COLE_O_LINK_DO_SEU_GRAFICO_AQUI" width="700" alt="Gráfico Feature Importance">
-</div>
+## ⚙️ Metodologia e Desenvolvimento
+1. **Limpeza de Dados (Data Cleaning):** Remoção de valores nulos críticos e tratamento de outliers em registros de frota e horários.
+2. **Feature Engineering:** Conversão de strings de data/hora para o formato `datetime` e criação da variável alvo (`tempo_real_entrega_minutos`), calculando o tempo exato decorrido em cada operação.
+3. **Modelagem Preditiva:** Separação dos dados (80% treino / 20% teste) e treinamento de um modelo **Random Forest Regressor**, escolhido por sua robustez em lidar com múltiplas variáveis não-lineares típicas de roteamento logístico.
+4. **Avaliação:** O modelo foi avaliado com base no **MAE (Erro Médio Absoluto)**.
 
-Com base na avaliação do modelo, identificamos que:
-* **[Preencha com o Insight 1: ex: A distância da rota representa X% do impacto no tempo.]**
-* **[Preencha com o Insight 2: ex: Dias com clima chuvoso adicionam uma média de Y minutos à entrega.]**
+## 📊 Resultados e Impacto Operacional
+O modelo atingiu um Erro Médio Absoluto (MAE) de **[INSERIR SEU RESULTADO AQUI] minutos**. 
 
+Na prática, isso significa que a estimativa do algoritmo erra, para mais ou para menos, por essa margem de tempo. Com essa previsão em mãos, a operação ganha previsibilidade para:
+* Reduzir o tempo de ociosidade do entregador no restaurante.
+* Ajustar dinamicamente a promessa de entrega no aplicativo do cliente.
+
+*(Adicione abaixo uma captura de tela do seu dashboard construído no Power BI mostrando a comparação entre o tempo real vs. previsto e indicadores logísticos)*
+
+![Dashboard de Previsão de Entregas](link_da_imagem_do_seu_dashboard_aqui)
 ## 💻 Como Executar
 Todo o projeto foi desenvolvido em nuvem utilizando o Google Colab. Para reproduzir o pipeline de dados:
 
