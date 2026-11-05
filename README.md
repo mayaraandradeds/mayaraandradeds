@@ -1,6 +1,4 @@
-<div align="left">
-  <img align="left" src="https://github.com/user-attachments/assets/93961c34-5e1e-457e-90c3-d3f0220fcee1" width="220" height="220" style="border-radius: 50%; border: 4px solid #6366f1; object-fit: cover; margin-right: 35px; margin-bottom: 20px;">
-  
+
   # Mayara Andrade
   
   <!-- Texto interativo digitado -->
