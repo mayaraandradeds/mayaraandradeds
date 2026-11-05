@@ -53,59 +53,16 @@ Em minha transição de carreira para a área de Dados e Inteligência Artificia
 
 <br>
 
-<div align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas">
-  <img src="https://img.shields.io/badge/Scikit_Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="Scikit-Learn">
-  <img src="https://img.shields.io/badge/Google_Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white" alt="Colab">
-</div>
+### 🚚 [Previsão de Tempo de Entrega (ETA) em Last-Mile Delivery](https://github.com/mayaraandradeds/Previsao-de-Entrega-ETA-Delivery)
+**Contexto:** O atraso nas entregas e o rompimento de SLAs são grandes ofensores de custo e satisfação do cliente em operações de logística. 
 
-<br>
+**O Projeto:** Como profissional de logística em transição para a área de dados, sei o quanto o rompimento de SLAs impacta a operação. Para resolver esse desafio na prática, desenvolvi este projeto de previsão de ETA (Tempo Estimado de Chegada) para food delivery. Utilizando um dataset público de entregas que minerei no Kaggle, construí um modelo preditivo com Random Forest em Python, traduzindo as previsões em um dashboard de indicadores focado em otimização de frota e experiência do cliente
+* **Stacks:**
+![Python](https://img.shields.io/badge/PYTHON-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/PANDAS-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![Scikit Learn](https://img.shields.io/badge/SCIKIT_LEARN-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Google Colab](https://img.shields.io/badge/GOOGLE_COLAB-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)
 
-## 🎯 O Problema de Negócio
-No setor de *food delivery* (last-mile), a precisão no tempo estimado de entrega (ETA - *Estimated Time of Arrival*) é crucial para a satisfação do cliente e para a otimização da frota. Previsões imprecisas geram gargalos na operação, atrasos para os entregadores e aumento no cancelamento de pedidos. 
+* **Tags:** `machine-learning`, `logistics`, `supply-chain`, `data-analysis`.
 
-O objetivo deste projeto é construir um modelo preditivo capaz de estimar o tempo exato de entrega com base em variáveis como distância, condições climáticas, densidade de trânsito e volume de pedidos, transformando dados brutos em inteligência logística.
-
-## 🛠️ Tecnologias e Ferramentas Utilizadas
-* **Linguagem:** Python
-* **Manipulação de Dados:** Pandas, NumPy
-* **Machine Learning:** Scikit-learn (Random Forest Regressor)
-* **Visualização e KPIs Logísticos:** Microsoft Power BI
-* **Ambiente de Desenvolvimento:** Google Colab
-
-## 🗂️ Sobre os Dados
-O projeto utiliza dados operacionais baseados no histórico de entregas (dataset público da DoorDash). As principais variáveis operacionais incluem:
-* Horários de criação do pedido e entrega real.
-* Quantidade de entregadores no turno (`total_onshift_dashers`) e ocupados (`total_busy_dashers`).
-* Estimativas de tempo de preparo e de roteamento (distância loja-cliente).
-* Volume e valor do pedido.
-
-## ⚙️ Metodologia e Desenvolvimento
-1. **Limpeza de Dados (Data Cleaning):** Remoção de valores nulos críticos e tratamento de outliers em registros de frota e horários.
-2. **Feature Engineering:** Conversão de strings de data/hora para o formato `datetime` e criação da variável alvo (`tempo_real_entrega_minutos`), calculando o tempo exato decorrido em cada operação.
-3. **Modelagem Preditiva:** Separação dos dados (80% treino / 20% teste) e treinamento de um modelo **Random Forest Regressor**, escolhido por sua robustez em lidar com múltiplas variáveis não-lineares típicas de roteamento logístico.
-4. **Avaliação:** O modelo foi avaliado com base no **MAE (Erro Médio Absoluto)**.
-
-## 📊 Resultados e Impacto Operacional
-O modelo atingiu um Erro Médio Absoluto (MAE) de **15,8 minutos**. 
-
-Na prática, isso significa que a estimativa do algoritmo erra, para mais ou para menos, por essa margem de tempo. Com essa previsão em mãos, a operação ganha previsibilidade para:
-* Reduzir o tempo de ociosidade do entregador no restaurante.
-* Ajustar dinamicamente a promessa de entrega no aplicativo do cliente.
-
-
-![Dashboard de Previsão de Entregas](https://github.com/user-attachments/assets/3883451b-7002-4f28-a19a-de3688a46262)
-## 💻 Como Executar
-Todo o projeto foi desenvolvido em nuvem utilizando o Google Colab. Para reproduzir o pipeline de dados:
-
-1. Acesse o notebook completo clicando no botão abaixo:
-   
-<a href="https://colab.research.google.com/drive/1lPVmGOZexU-V3EFAOIVfXtpj-aAE79MI"><img src="https://img.shields.io/badge/Abrir_Notebook_no-Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white" alt="Abrir no Colab"></a>
-
-2. Faça o upload do arquivo `.csv` do dataset.
-3. Execute as células sequencialmente para replicar a limpeza e o treinamento do modelo.
-
-## 👩🏻‍💻 Autora
-**Mayara Andrade**  
-Conecte-se comigo no [LinkedIn](https://www.linkedin.com/in/mayara-andrade-a279271b6) para trocarmos ideias sobre Logística, Dados e Inteligência Artificial.
+👉 **[Acesse o repositório para ver o código passo a passo e o dashboard de impacto](https://github.com/mayaraandradeds/Previsao-de-Entrega-ETA-Delivery)**
