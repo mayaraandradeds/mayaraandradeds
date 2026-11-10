@@ -51,7 +51,7 @@ Em minha transição de carreira para a área de Dados e Inteligência Artificia
 
 <br>
 
-### 🤖 SentIA: Classificação de Sentimentos em Contatos Inteligentes
+### [🤖 SentIA: Classificação de Sentimentos em Contatos Inteligentes](https://github.com/mayaraandradeds/-SentIA-Monitoramento-Autom-tico-de-Satisfa-o-do-Cliente)
 
 > **Contexto:** Em operações de atendimento digital em larga escala, triar o nível de satisfação do cliente em milhares de mensagens de texto manualmente é um processo lento, o que atrasa a resposta a clientes insatisfeitos.
 
@@ -69,7 +69,7 @@ Utilizando a base pública de e-commerce da Olist minerada via Kaggle API, const
 **🏷️ Tags:** 
 `#machine-learning` `#nlp` `#customer-experience` `#artificial-intelligence`
 
-[👉 **Acesse o repositório para testar a IA direto no Colab e ver o código passo a passo**](COLE_AQUI_O_LINK_DO_SEU_REPOSITORIO)
+[👉 **Acesse o repositório para testar a IA direto no Colab e ver o código passo a passo**](https://github.com/mayaraandradeds/-SentIA-Monitoramento-Autom-tico-de-Satisfa-o-do-Cliente)
 
 
 
