@@ -42,7 +42,39 @@ Em minha transição de carreira para a área de Dados e Inteligência Artificia
 
 <br>
 
-## 📂 Meus Projetos
+### 📂 Meus Projetos
+
+<div align="center">
+  <!-- Dica: Crie um banner retangular o Canva (ex: 1200x400n) com o título do projeto, suba nas Issues e cole o link aqui -->
+  <img src="https://github.com/user-attachments/assets/61ab44fe-aed7-47fe-9990-11889ca7bb72" alt="Banner do Projeto SentIA" width="100%">
+</div>
+
+<br>
+
+### 🤖 SentIA: Classificação de Sentimentos em Contatos Inteligentes
+
+> **Contexto:** Em operações de atendimento digital em larga escala, triar o nível de satisfação do cliente em milhares de mensagens de texto manualmente é um processo lento, o que atrasa a resposta a clientes insatisfeitos.
+
+**O Projeto:** 
+Com foco em resolver dores reais de negócio através da IA, desenvolvi este projeto de Processamento de Linguagem Natural (NLP) para automatizar a análise de feedback de clientes. 
+
+Utilizando a base pública de e-commerce da Olist minerada via Kaggle API, construí um modelo preditivo com **Random Forest** e **TF-IDF** em Python. O algoritmo interpreta textos não-estruturados e classifica automaticamente o sentimento do consumidor em Positivo, Neutro ou Negativo, agilizando a atuação das equipas de suporte sobre detratores.
+
+**🛠️ Stacks:**  
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Google Colab](https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&color=525252)
+
+**🏷️ Tags:** 
+`#machine-learning` `#nlp` `#customer-experience` `#artificial-intelligence`
+
+[👉 **Acesse o repositório para testar a IA direto no Colab e ver o código passo a passo**](COLE_AQUI_O_LINK_DO_SEU_REPOSITORIO)
+
+
+
+
+
 
 <div align="center">
   <!-- Dica: Crie um banner retangular o Canva (ex: 1200x400n) com o título do projeto, suba nas Issues e cole o link aqui -->
